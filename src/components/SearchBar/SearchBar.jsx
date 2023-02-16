@@ -12,7 +12,7 @@ function SearchBar(props) {
                 className="search-bar"
                 type="text"
                 name="search"
-                placeholder="Search..."
+                placeholder="Search... (case sensitive)"
                 onChange={sendQuery}
             />
         </div>
